@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-This project investigates the *Heat Hypothesis*, which posits that higher temperatures correlate with an increase in violent crime rates. Using data from New York City spanning the years 2013 to 2023, we analyze crime and temperature data to assess whether this hypothesis holds merit.
+This project investigates the *Heat Hypothesis*, also known as the *Temperature-Aggression Hypothesis*, which posits that higher temperatures correlate with an increase in violent crime rates. Using data from New York City spanning the years 2013 to 2023, we analyze crime and temperature data to assess whether this hypothesis holds merit.
 
 The analysis was conducted using **Jupyter Notebook** for data extraction, transformation, visualization, and statistical evaluation.
 
@@ -149,3 +149,10 @@ Findings of this analysis are available in the `analysis.ipynb` notebook and the
 As this project is limited in both the scope of our data and the questions we wish to answer, we were not expecting a definitive answer on the Heat Hypothesis. We do feel that, while our data does not show enough statistical significance to prove a correlation there are many confounding variables so further study with a more limited timeframe and controlled setting might yeild more specific results.
 
 ---
+
+## References
+
+- Open-Meteo API: [https://openweathermap.org/api](https://openweathermap.org/api)
+- NYC Open Data - NYPD Complaint Data Historic: [https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i/data_preview](https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i/data_preview)
+- Craig A. Anderson. "Temperature and Aggression: Ubiquitous Effects of Heat on Occurrence of Human Violence." *Psychological Bulletin*, 1989. [DOI: 10.1037//0033-2909.106.1.74](https://www.researchgate.net/publication/20489242_Temperature_and_Aggression_Ubiquitous_Effects_of_Heat_on_Occurrence_of_Human_Violence)
+- Anderson, Craig A., et al. "Temperature and Aggression." *Advances in Experimental Social Psychology*, Vol. 32, 2000. [DOI: 10.1016/S0065-2601(00)80004-0](https://www.sciencedirect.com/science/article/abs/pii/S0065260100800040)
