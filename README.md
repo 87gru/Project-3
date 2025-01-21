@@ -1,1 +1,140 @@
 # Project-3
+# README: Exploring the Heat Hypothesis: Temperature and Crime Rates in Manhattan
+
+
+## Project Overview
+
+This project investigates the *Heat Hypothesis*, which posits that higher temperatures correlate with an increase in violent crime rates. Using data from New York City spanning the years 2013 to 2023, we analyze crime and temperature data to assess whether this hypothesis holds merit.
+
+The analysis was conducted using **Jupyter Notebook** for data extraction, transformation, visualization, and statistical evaluation.
+
+Our visualizations are both presented in the form of graphs/charts as well as a heat map of Manhattan for an interactive breakdown of the data.
+
+---
+
+## Project Structure
+
+### Files
+
+1. **`analysis.ipynb`**:
+
+   - Main notebook for data analysis and visualization.
+   - Integrates processed temperature and crime data.
+   - Generates scatter plots and statistical results to test the Heat Hypothesis.
+
+2. **`data_extraction_manhattan_temperatures.ipynb`**:
+
+   - Processes and extracts temperature data for NYC locations.
+   - Transforms weather JSON into structured formats for analysis.
+
+3. **`data_extraction_nyc_crime.ipynb`**:
+
+   - Processes and extracts NYC crime data.
+   - Maps geospatial and time-series crime details.
+
+4. **`crime and weather.sql`**:
+
+   - SQL queries for merging crime and weather data.
+   - Defines structured datasets for analysis.
+
+5. **`Output/data.json`**:
+
+   - Raw JSON dataset containing NYC crime data.
+
+6. **`Output/weather.json`**:
+
+   - Raw JSON dataset containing NYC weather data.
+
+7. **`Output/Manhattan_Temperatures_2013-2023.csv`**:
+
+   - Processed temperature dataset for Manhattan, including daily high, low, and mean temperatures.
+
+8. **`Output/NYPD_Complaints_01-01-13_12-31-23_v2.csv`**:
+
+   - Processed dataset of NYPD complaints with geolocation and offense details.
+
+9. **`leaflet_map/static/index.html`**:
+
+   - HTML file for rendering the heat map visualization of crime and temperature data.
+   - Links to necessary JavaScript and CSS files for the map.
+
+10. **`leaflet_map/static/css/style.css`**:
+
+    - CSS file defining styles for the heat map, including legend and map element formatting.
+
+11. **`leaflet_map/static/js/data.js`**:
+
+    - JavaScript file containing the crime and temperature datasets for visualization.
+
+12. **`leaflet_map/static/js/logic.js`**:
+
+    - JavaScript file implementing map layers, marker clustering, and interactive elements for the heat map visualization.
+
+---
+
+## Key Functions
+
+### Data Processing
+
+- **Crime Data Transformation**:
+
+  - Filters and aggregates NYC crime data.
+  - Categorizes crimes by severity and type.
+  - Maps complaints to geographic locations (e.g., Manhattan, Bronx).
+
+- **Weather Data Transformation**:
+
+  - Converts temperature data from JSON to tabular formats.
+  - Handles location-specific data (e.g., Central Park, Midtown).
+
+### Data Integration
+
+- **SQL Merging**:
+  - Combines processed crime and weather datasets based on date and location.
+  - Ensures temporal alignment for cross-analysis.
+
+### Analysis and Visualization
+
+- **Correlation Testing**:
+  - Assesses statistical correlation between daily temperature peaks and violent crime counts.
+  - Tests hypotheses using linear regression and visualization techniques.
+- **Visualization**:
+  - Interactive heat map of crime rates over Manhattan, NYC.
+  - Temporal trends of temperature and crime.
+
+### Scope
+
+This project is focused on **New York City**, specifically the borough of **Manhattan**, and examines:
+
+- The correlation of temperature and crime rates.
+- Compare findings to existing findings on the Heat Hypothesis.
+
+---
+
+## Technologies Used
+
+- **Python**: Data processing and visualization (Pandas, Matplotlib, Seaborn).
+- **SQL**: Data integration and preprocessing.
+- **Jupyter Notebook**: Interactive analysis.
+- **JSON & CSV**: Data storage and representation.
+- **Leaflet.js**: Interactive mapping and heat map generation.
+- **D3.js**: Data-driven visualizations for markers and legends.
+
+---
+
+## How to Use
+
+1. Open the Jupyter notebooks `data_extraction_manhattan_temperatures.ipynb` and `data_extraction_nyc_crime.ipynb` in a Python environment with the required dependencies. Run these notebooks to process and prepare the temperature and crime datasets.
+2. Run the SQL queries in `crime and weather.sql` to merge the processed datasets, ensuring alignment by date and location.
+3. Open `analysis.ipynb` and execute the cells to analyze the merged data, generate visualizations.
+4. To view the heat map visualization:
+   - Navigate to the `leaflet_map` directory.
+   - Open `index.html` in a browser to interact with the map displaying crime and temperature data.
+
+---
+
+## Results
+
+Findings of this analysis are available in the `analysis.ipynb` notebook and the heat map visualization, showcasing whether temperature fluctuations significantly impact crime rates in New York City.
+
+---
