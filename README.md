@@ -1,5 +1,5 @@
-# Project-3
-# README: Exploring the Heat Hypothesis: Temperature and Crime Rates in Manhattan
+# README: Project-3
+# Exploring the Heat Hypothesis: Temperature and Crime Rates in Manhattan (2013-2023)
 
 
 ## Project Overview
@@ -11,6 +11,15 @@ The analysis was conducted using **Jupyter Notebook** for data extraction, trans
 Our visualizations are both presented in the form of graphs/charts as well as a heat map of Manhattan for an interactive breakdown of the data.
 
 ---
+
+## Ethical Considerations
+
+In conducting this analysis, we ensured that only the relevant data required to answer the specific research questions was utilized.
+
+To avoid potential personal biases, we intentionally excluded and dropped columns of data present in the API datasets that were not relevant to the project's scope. This careful selection of data helps maintain focus on the analysis while adhering to ethical research practices.
+
+---
+
 
 ## Project Structure
 
@@ -136,5 +145,7 @@ This project is focused on **New York City**, specifically the borough of **Manh
 ## Results
 
 Findings of this analysis are available in the `analysis.ipynb` notebook and the heat map visualization, showcasing whether temperature fluctuations significantly impact crime rates in New York City.
+
+As this project is limited in both the scope of our data and the questions we wish to answer, we were not expecting a definitive answer on the Heat Hypothesis. We do feel that, while our data does not show enough statistical significance to prove a correlation there are many confounding variables so further study with a more limited timeframe and controlled setting might yeild more specific results.
 
 ---
