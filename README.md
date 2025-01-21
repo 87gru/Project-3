@@ -136,7 +136,7 @@ This project is focused on **New York City**, specifically the borough of **Manh
 1. Open the Jupyter notebooks `data_extraction_manhattan_temperatures.ipynb` and `data_extraction_nyc_crime.ipynb` in a Python environment with the required dependencies. Run these notebooks to process and prepare the temperature and crime datasets.
 2. Run the SQL queries in `crime and weather.sql` to merge the processed datasets, ensuring alignment by date and location.
 3. Open `analysis.ipynb` and execute the cells to analyze the merged data, generate visualizations.
-4. [Click here to View the Leaflet Map!]https://87gru.github.io/Project-3/leaflet_map/index.html
+4. [Click here to View the Leaflet Map!](https://87gru.github.io/Project-3/leaflet_map/index.html)
      
 
 ---
