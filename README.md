@@ -138,6 +138,7 @@ This project is focused on **New York City**, specifically the borough of **Manh
 3. Open `analysis.ipynb` and execute the cells to analyze the merged data, generate visualizations.
 4. [Click here to View the Leaflet Map!](https://87gru.github.io/Project-3/leaflet_map/index.html)
      
+Select a date from the Leaflet Map in the collapsed layer selection menu to display crime incidents across Manhattan as well as a temperature readings and a brief summary.     
 
 ---
 
